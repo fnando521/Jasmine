@@ -29,3 +29,10 @@ describe('Test Network Client', function() {
 		expect(xhr).not.toBeUndefined();
 	});
 });
+
+// Test REST API
+describe('REST API Test', function() {
+	it('verifies a webservice is available', function() {
+		
+	});
+});
