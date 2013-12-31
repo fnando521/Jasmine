@@ -1,7 +1,8 @@
 
 function networkv1()
 {
-	//Ti.API.info('HERE');
+	// initialize
+
 };
 module.exports = networkv1;
 
@@ -10,7 +11,7 @@ networkv1.prototype.getData = function(webServiceUrl, _cb) {
 	
 	// GET data from webservice
 	
-	var xhr = Ti.Network.createHTTPClient();
+	/*var xhr = Ti.Network.createHTTPClient();
 
 	xhr.open("GET", webServiceUrl);
 	xhr.onload = function() 
@@ -32,7 +33,7 @@ networkv1.prototype.getData = function(webServiceUrl, _cb) {
 		_cb.start();
 	}
 	xhr.setTimeout = 60000;
-	xhr.send();
+	xhr.send();*/
 	
 };
 
