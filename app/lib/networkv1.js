@@ -7,7 +7,7 @@ function networkv1()
 module.exports = networkv1;
 
 networkv1.prototype.getData = function(webServiceUrl, _cb) {
-	//Ti.API.info('Running getData: ');
+	// Needs modification
 	
 	// GET data from webservice
 	
